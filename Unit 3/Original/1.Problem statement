@@ -1,0 +1,4 @@
+A hospital needs an efficient system to maintain and manage patient records. 
+The number of patients admitted to the hospital may change frequently, 
+so using a fixed-size array may waste memory or limit the number of records that can be stored. 
+The proposed system uses a singly linked list to store patient records dynamically.
