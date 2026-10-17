@@ -1,0 +1,82 @@
+--- Hospital Patient Record Management ---
+1. Insert Patient
+2. Display Patients
+3. Search Patient
+4. Delete Patient
+5. Exit
+Enter your choice: 1
+
+Enter Patient ID: 101
+Enter Patient Name: Rahul
+Enter Age: 25
+Enter Disease: Fever
+Patient record inserted successfully.
+
+--- Hospital Patient Record Management ---
+1. Insert Patient
+2. Display Patients
+3. Search Patient
+4. Delete Patient
+5. Exit
+Enter your choice: 1
+
+Enter Patient ID: 102
+Enter Patient Name: Amit
+Enter Age: 30
+Enter Disease: Cold
+Patient record inserted successfully.
+
+--- Hospital Patient Record Management ---
+1. Insert Patient
+2. Display Patients
+3. Search Patient
+4. Delete Patient
+5. Exit
+Enter your choice: 2
+
+Patient Records:
+ID: 101
+Name: Rahul
+Age: 25
+Disease: Fever
+------------------
+ID: 102
+Name: Amit
+Age: 30
+Disease: Cold
+------------------
+
+--- Hospital Patient Record Management ---
+1. Insert Patient
+2. Display Patients
+3. Search Patient
+4. Delete Patient
+5. Exit
+Enter your choice: 3
+
+Enter Patient ID to search: 102
+Patient Found!
+Name: Amit
+Age: 30
+Disease: Cold
+
+--- Hospital Patient Record Management ---
+1. Insert Patient
+2. Display Patients
+3. Search Patient
+4. Delete Patient
+5. Exit
+Enter your choice: 4
+
+Enter Patient ID to delete: 101
+Patient record deleted successfully.
+
+--- Hospital Patient Record Management ---
+1. Insert Patient
+2. Display Patients
+3. Search Patient
+4. Delete Patient
+5. Exit
+Enter your choice: 5
+
+Program terminated.
