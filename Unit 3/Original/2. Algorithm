@@ -1,0 +1,13 @@
+Start the program.
+
+Define a node containing patient ID, name, age, disease, and a pointer to the next node.
+
+Initialize the head pointer to NULL.
+
+Display a menu with options to add, display, search, and delete patient records.
+
+Perform the operation selected by the user.
+
+Repeat the menu until the user chooses to exit.
+
+Stop the program.
