@@ -1,0 +1,11 @@
+Algorithm:
+
+1. Start.
+2. Define a node structure for the binary tree.
+3. Create the binary tree with left and right child pointers.
+4. Traverse each node of the binary tree.
+5. Check whether each node has zero, one, or two children.
+6. If any node has exactly one child, mark the tree as not a full binary tree.
+7. If every node has either zero or two children, mark the tree as a full binary tree.
+8. Display whether the given binary tree is full or not.
+9. Stop.
