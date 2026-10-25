@@ -1,0 +1,4 @@
+To represent delivery zones as vertices and connecting roads as edges using a graph.
+To implement Breadth First Search (BFS) traversal.
+To display reachable delivery zones in BFS traversal order.
+To find and display the BFS level of each reachable zone.
