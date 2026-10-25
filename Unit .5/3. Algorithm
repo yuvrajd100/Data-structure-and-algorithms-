@@ -1,0 +1,14 @@
+Start.
+Create a graph using an adjacency list.
+Input the number of delivery zones and connecting roads.
+Add edges between the connected delivery zones.
+Select the starting delivery zone.
+Initialize all zones as unvisited and set their levels to -1.
+Mark the starting zone as visited, set its level to 0, and insert it into the queue.
+Repeat while the queue is not empty:
+Remove a zone from the queue.
+Display the zone.
+Visit all its unvisited adjacent zones.
+Mark them as visited, assign their level as the current zone's level + 1, and insert them into the queue.
+Display each reachable zone and its BFS level.
+Stop
