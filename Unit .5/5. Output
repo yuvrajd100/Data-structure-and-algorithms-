@@ -1,0 +1,17 @@
+Enter number of delivery zones: 5
+Enter number of connecting roads: 4
+Enter roads (zone1 zone2):
+0 1
+0 2
+1 3
+2 4
+Enter starting delivery zone: 0
+
+BFS Traversal Order: 0 1 2 3 4
+
+Delivery Zone    BFS Level
+0                0
+1                1
+2                1
+3                2
+4                2
