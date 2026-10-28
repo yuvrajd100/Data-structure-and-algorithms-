@@ -1,9 +1,0 @@
-cout << "Reachable vertices: ";
-for (int i = 0; i < n; i++)
-    if (visited[i])
-        cout << i << " ";
-
-cout << "\nUnvisited vertices: ";
-for (int i = 0; i < n; i++)
-    if (!visited[i])
-        cout << i << " ";
