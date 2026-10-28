@@ -1,4 +1,0 @@
-cout << "Enter starting vertex: ";
-cin >> start;
-
-BFS(start);
