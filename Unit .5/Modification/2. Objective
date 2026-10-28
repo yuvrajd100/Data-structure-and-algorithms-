@@ -1,0 +1,5 @@
+To represent delivery zones using a graph.
+To implement BFS traversal using a queue.
+To accept different starting vertices.
+To identify reachable and unvisited vertices.
+To count reachable vertices and display their BFS levels.
