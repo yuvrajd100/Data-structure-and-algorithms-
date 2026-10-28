@@ -1,0 +1,87 @@
+#include <iostream>
+#include <vector>
+#include <queue>
+using namespace std;
+
+int main()
+{
+    int n, e, u, v, start;
+
+    cout << "Enter number of vertices: ";
+    cin >> n;
+
+    vector<vector<int>> adj(n);
+
+    cout << "Enter number of edges: ";
+    cin >> e;
+
+    cout << "Enter edges (u v):\n";
+    for (int i = 0; i < e; i++)
+    {
+        cin >> u >> v;
+        adj[u].push_back(v);
+        adj[v].push_back(u);
+    }
+
+    cout << "Enter starting vertex: ";
+    cin >> start;
+
+    vector<bool> visited(n, false);
+    vector<int> level(n, -1);
+    queue<int> q;
+
+    q.push(start);
+    visited[start] = true;
+    level[start] = 0;
+
+    cout << "\nBFS Traversal: ";
+
+    while (!q.empty())
+    {
+        u = q.front();
+        q.pop();
+
+        cout << u << " ";
+
+        for (int x : adj[u])
+        {
+            if (!visited[x])
+            {
+                visited[x] = true;
+                level[x] = level[u] + 1;
+                q.push(x);
+            }
+        }
+    }
+
+    cout << "\n\nReachable Vertices: ";
+    int count = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        if (visited[i])
+        {
+            cout << i << " ";
+            count++;
+        }
+    }
+
+    cout << "\nUnvisited Vertices: ";
+    for (int i = 0; i < n; i++)
+    {
+        if (!visited[i])
+            cout << i << " ";
+    }
+
+    cout << "\nTotal Reachable Vertices: " << count;
+
+    cout << "\n\nBFS Levels:\n";
+    for (int i = 0; i < n; i++)
+    {
+        if (visited[i])
+            cout << "Vertex " << i
+                 << " : Level " << level[i] << endl;
+    }
+
+    return 0;
+}
