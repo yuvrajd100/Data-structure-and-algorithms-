@@ -1,0 +1,12 @@
+Start the program.
+Accept the number of vertices and edges.
+Create an adjacency list to represent the graph.
+Accept the edges connecting the vertices.
+Accept the starting vertex.
+Initialize all vertices as unvisited and their levels as −1.
+Insert the starting vertex into the queue and mark it as visited.
+Remove a vertex from the queue and display it.
+Visit its unvisited adjacent vertices, assign their BFS levels, and insert them into the queue.
+Repeat until the queue becomes empty.
+Display the traversal order, reachable vertices, unvisited vertices, and total reachable vertices.
+Stop.
