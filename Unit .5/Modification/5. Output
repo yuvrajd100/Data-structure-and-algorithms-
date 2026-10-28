@@ -1,0 +1,24 @@
+Enter number of vertices: 6
+Enter number of edges: 4
+
+Enter edges (u v):
+0 1
+0 2
+1 3
+2 4
+
+Enter starting vertex: 2
+
+BFS Traversal: 2 0 4 1 3
+
+Reachable Vertices: 0 1 2 3 4
+Unvisited Vertices: 5
+
+Total Reachable Vertices: 5
+
+BFS Levels:
+Vertex 0 : Level 1
+Vertex 1 : Level 2
+Vertex 2 : Level 0
+Vertex 3 : Level 3
+Vertex 4 : Level 1
